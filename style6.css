@@ -1,0 +1,75 @@
+#jobs-content {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+#jobs-content h1 {
+    font-size: 6vw;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+#jobs-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.job-listing {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.job-listing h2 {
+    color: #333;
+}
+
+.job-listing p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.apply-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: springgreen;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.apply-btn:hover {
+    background: #28a745;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background: springgreen;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #28a745;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .job-listing {
+        width: 90%;
+        margin: auto;
+    }
+}

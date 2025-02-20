@@ -1,0 +1,82 @@
+#apply-content {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+#apply-content h1 {
+    font-size: 6vw;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+#apply-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#apply-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    width: 50%;
+    margin: auto;
+}
+
+#apply-form label {
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#apply-form input, #apply-form select, #apply-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.apply-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: springgreen;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.apply-btn:hover {
+    background: #28a745;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background: springgreen;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #28a745;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #apply-form {
+        width: 90%;
+    }
+}

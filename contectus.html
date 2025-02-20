@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - This Is Digital</title>
+    <link rel="stylesheet" href="style11.css">
+    <script>
+        function f(message){
+            alert(message)
+        }
+    </script>
+</head>
+<body>
+    
+
+        <div id="contact-content">
+            <h1>Contact Us</h1>
+            <p>Get in touch with us for any inquiries or collaborations.</p>
+
+            <div class="contact-info">
+                <p><strong>📍 Address:</strong> Kumar Chatralay, Near New India Colony Bus Stand, New India Colony, Nikol, Ahmedabad, Gujarat</p>
+                <p><strong>📧 Email:</strong>bhavinsukhdiya54@gmail.com</p>
+                <p><strong>📞 Phone:</strong> +91 8849148848</p>
+            </div>
+
+            <form id="contact-form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="submit-btn"onclick="f('send sucessfull')">Send Message</button>
+            </form>
+
+            <div id="map">
+                <h2>Find Us Here</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.151965667132!2d72.6728402719337!3d23.05488961512781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8722f0e4f325%3A0xd15b070902ff1a3f!2sKelvanidham%20Boys%20Hostel!5e0!3m2!1sen!2sin!4v1740067734269!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <a href="index.html" class="btn">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
